@@ -67,6 +67,23 @@ After setup, normal sessions can run without Administrator privileges:
 Other available switches: `-NoAudio`, `-SoftwareDecode`, `-EngineDebug`, and
 `-SkipSetup`.
 
+## Helpful Tools
+
+For a repeatable presentation launch:
+
+```powershell
+.\profiles\presentation.ps1 -Name "Presentation PC" -Pin
+```
+
+For first-line network troubleshooting:
+
+```powershell
+.\tools\network-check.ps1
+```
+
+The diagnostic helper checks Bonjour, expected TCP listeners, and local DNS
+resolution without changing system settings.
+
 ## Architecture
 
 ```mermaid
