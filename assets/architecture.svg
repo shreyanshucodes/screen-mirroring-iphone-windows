@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">iPhone Mirror for Windows architecture</title>
+  <desc id="desc">An iPhone connects over local Wi-Fi to Bonjour and UxPlay on Windows.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#172554"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#020617" flood-opacity=".4"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <circle cx="1050" cy="40" r="150" fill="#38bdf8" opacity=".08"/>
+  <circle cx="1100" cy="260" r="180" fill="#34d399" opacity=".06"/>
+  <text x="64" y="82" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">iPhone Mirror for Windows</text>
+  <text x="64" y="119" fill="#bae6fd" font-family="Segoe UI,Arial,sans-serif" font-size="18">Native AirPlay. Local network. One focused launcher.</text>
+  <g filter="url(#shadow)" font-family="Segoe UI,Arial,sans-serif" text-anchor="middle">
+    <rect x="80" y="176" width="180" height="70" rx="14" fill="#1e293b" stroke="#38bdf8"/>
+    <text x="170" y="206" fill="#f8fafc" font-size="18" font-weight="600">iPhone</text>
+    <text x="170" y="228" fill="#94a3b8" font-size="13">Screen Mirroring</text>
+    <rect x="350" y="176" width="180" height="70" rx="14" fill="#1e293b" stroke="#38bdf8"/>
+    <text x="440" y="206" fill="#f8fafc" font-size="18" font-weight="600">Bonjour</text>
+    <text x="440" y="228" fill="#94a3b8" font-size="13">mDNS discovery</text>
+    <rect x="620" y="176" width="180" height="70" rx="14" fill="#1e293b" stroke="#34d399"/>
+    <text x="710" y="206" fill="#f8fafc" font-size="18" font-weight="600">UxPlay</text>
+    <text x="710" y="228" fill="#94a3b8" font-size="13">AirPlay receiver</text>
+    <rect x="890" y="176" width="180" height="70" rx="14" fill="#1e293b" stroke="#34d399"/>
+    <text x="980" y="206" fill="#f8fafc" font-size="18" font-weight="600">Windows</text>
+    <text x="980" y="228" fill="#94a3b8" font-size="13">Video + audio</text>
+  </g>
+  <path d="M260 211h90M530 211h90M800 211h90" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="305" cy="211" r="5" fill="#f8fafc"/><circle cx="575" cy="211" r="5" fill="#f8fafc"/><circle cx="845" cy="211" r="5" fill="#f8fafc"/>
+</svg>

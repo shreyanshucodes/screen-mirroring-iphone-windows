@@ -1,0 +1,56 @@
+# OS-generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs #
+########
+*.log
+logs/
+*.mp4
+*.mov
+*.avi
+
+# PowerShell #
+##############
+*.ps1.xml
+
+# Temporary files #
+###################
+*.tmp
+*.temp
+*~
+*.bak
+*.swp
+
+# Editor directories and files #
+################################
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Package files #
+#################
+# Package managers' generated files and directories
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables and secrets #
+#####################################
+.env
+.env.*
+! .env.example  # Allow the template but not the actual values
+
+# Build outputs #
+#################
+build/
+dist/
+out/
