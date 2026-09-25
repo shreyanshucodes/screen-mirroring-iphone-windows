@@ -116,6 +116,11 @@ This is a Windows-focused convenience layer around established open-source
 components. Test it on your own hardware and network before relying on it for
 a live presentation. DRM-protected services may intentionally refuse mirroring.
 
+## What's next in the project:
+Build a UI to show the current SREA status and live FPS, eliminating the need to re-run the script to launch AirPlay.
+
+Allow users to choose how the PC appears on the iPhone (e.g., as an Apple TV or MacBook Air).
+
 ## Credits and Licensing
 
 The wrapper scripts are MIT licensed. UxPlay is maintained by
