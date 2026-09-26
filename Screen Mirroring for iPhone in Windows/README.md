@@ -62,7 +62,7 @@ Available switches are `-Name`, `-PIN`, `-Fullscreen`, `-Sync`, `-Fps`,
 - If first-time setup fails, rerun `setup.ps1` from an elevated PowerShell.
 - If video is black, try `-SoftwareDecode`.
 - If screen sharing in Teams or Zoom is black, try `-ShareSafe`.
-- Logs are written by the parent project under `%LOCALAPPDATA%\pcairplay`.
+- Logs are written by the parent project unde `%LOCALAPPDATA%\pcairplay`.
 
 ## Scope and licensing
 
